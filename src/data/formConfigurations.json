@@ -1,0 +1,43 @@
+[ 
+    { 
+        "label": "Text", 
+        "name": "text", 
+        "type": "text", 
+        "required": true, 
+        "errorMessage": "Text is required"
+    }, 
+    { 
+        "label": "First name", 
+        "name": "firstName", 
+        "type": "text", 
+        "required": true,    
+        "errorMessage": "First name is required"
+    },  
+    { 
+        "label": "Last Name", 
+        "name": "lastName", 
+        "type": "text", 
+        "required": true,    
+        "errorMessage": "Last Name is required"
+    }, 
+    { 
+        "label": "First phone", 
+        "name": "phone", 
+        "type": "tel", 
+        "required": true,    
+        "errorMessage": "First phone is required"
+    },
+    { 
+        "label": "Second phone", 
+        "name": "secondPhone", 
+        "type": "tel", 
+        "required": false    
+    }, 
+    { 
+        "label": "Date", 
+        "name": "date", 
+        "type": "date", 
+        "required": true,  
+        "errorMessage": "Date is required"
+    }   
+]
